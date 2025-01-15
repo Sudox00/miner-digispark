@@ -1,2 +1,2 @@
 # miner-digispark
-Прошивка для digispark + скрытый майнер 
+_Прошивка для digispark + скрытый майнер_
